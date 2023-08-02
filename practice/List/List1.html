@@ -6,6 +6,91 @@
     <title>Html List</title>
 </head>
 <body>
-    
+    <h3>List in HTML</h3>
+    <p>'ul' tag is used for unordered list. </p>
+    <p>'li' tag is used for list item, it is placed inside the unordered list.</p>
+    <p>we can change the type of unordered list i.e. disc,cicle,square,none,etc. by using "type" attribute.</p>
+    <pre>
+        Syntax --:
+        ul tag type="bullet name"
+        close ul tag.
+    </pre>
+    <ul type="circle">
+        <h4>Name of Weeks:</h4>
+        <li>Sunday</li>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thrusday</li>
+        <li>Friday</li>
+        <li>Saturday</li>
+    </ul>
+    <p>We can create a nested unordered list.</p>
+    <ul type="square">
+        <h4>Fruit Name:</h4>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>More Fruits</li>
+            <ul>
+                <li>Mango</li>
+                <li>Papaya</li>
+                <li>Pine-apple</li> 
+            </ul>
+    </ul>
+    <h3>Ordered lists in HTML :</h3>
+    <p>"Ol"tag is used for Ordered List</p>
+    <p>"li"tag is used for list item inside a Ordered list.</p>
+    <p>We can change the bullets of ordered list i.e. (1,I,A,a,i) by using "type" attribute</p>
+    <ol type="i" start="10">  <!--start attribute is used in the ol tags to start the ordering from the list-item.-->
+        <h4>Class 12 <sup>th</sup> subject name :</h4>
+        <li>Hindi</li>
+        <li>English</li>
+        <li>Mathematics</li>
+        <li>Physics</li>
+        <li>Chemistry</li>
+        <li>Physical Education</li>
+    </ol>
+    <ol type="i">
+        <h4>Class 10 <sup>th</sup> Subject Name :</h4>
+        <li>Hindi</li>
+        <li>English</li>
+        <li>Mathematics</li>
+        <li>Science</li>
+            <ul type="disc">
+                <li>Physics</li>
+                <li>Chemistry</li>
+                <li>Biology</li>
+            </ul>
+        <li>Sanskrit</li>
+        <li>S.S.T</li>
+            <ul type="disc">
+                <li>History</li>
+                <li>Geography</li>
+                <li>Civics</li>
+                <li>Economics</li>
+            </ul>
+    </ol>
+
+    <h4>HTML Data Definition List :</h4>
+    <pre>This list create a dictionary like structure, in 
+        which you can take term in specific tags,
+        and define that term in specific tags for proper arrangement.</pre>
+
+        <!-- 
+            <dl> is used for data list.
+            <dt> is used for data terms.
+            <dd> is used for data define.
+            (<dt> and <dd> lie inside <dl>)
+        -->
+        <dl>
+            <dt>HTML :</dt>
+            <dd>Hyper text Markup Language</dd>
+            <dt>CSS :</dt>
+            <dd>Cascading Style Sheet.</dd>
+            <dt>JS :</dt>
+            <dd>JavaScript</dd>
+            <dt>WAN :</dt>
+            <dd>Wide Area Network</dd> 
+        </dl>
 </body>
 </html>
