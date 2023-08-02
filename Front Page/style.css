@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    border: 2px solid rebeccapurple;
+    height: 50px;
+}
+.nav-bar{
+    width: 500px;
+    text-transform:uppercase;
+    box-sizing: border-box;
+
+}
+span{
+    /* font-size: 25px;
+    font-weight: 700; */
+    margin: 12px;
+    border: 2px solid green;
+    margin: 12px;
+
+}
+a:hover{
+    background-color: #51af1b;
+}

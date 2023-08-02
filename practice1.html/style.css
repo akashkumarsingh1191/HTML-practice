@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+}
+.container{
+    width: 700px;
+    border: 2px solid rgb(236, 100, 236);
+    margin: 40px auto;
+    /* padding: 10px 2px; */
+    /* background-color: #ebe2e2; */
+
+}
+.item{
+    border: 4px solid rgb(184, 42, 42);
+    margin: 10px 2px;
+    padding: 10px 2px; 
+    /* width: 50%;  */
+    background-color: #56a0ca;
+    /* text-align: justify; */
+}
+#fruit{
+    /* border: 2px solid rgb(192, 119, 119); */
+    width: 48%;
+    float: left;
+}
+#stationary{
+    width: 48%;
+    float: right;
+    /* border: 2px solid rgb(231, 80, 194); */
+}
+#jewellery{
+    width: 100%;
+    /* float: left; */
+    clear: both;
+
+}
+
+h3,p{
+    text-align: justify;
+    /* font-weight: 800; */
+}
+h2{
+    /* text-align: center; */
+    margin: auto;
+    width: 100px;
+    /* border: 2px solid red; */
+
+}
