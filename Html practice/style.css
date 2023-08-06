@@ -1,33 +1,113 @@
 *{
-    margin: 0px;
-
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
 }
-hr{
-    margin: 2px 2px;
-    border: 2px solid black;  
-}
-#logo{
-    margin: 5px 10px;
-    width: 90px;
-    height: 90px;
-    float: left;
-    border-radius: 50px;
-    line-height: 200px;
+.header img{
+    margin-left:15px;
+    margin-bottom: 12px;
+    float: left;;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
 }
 .header{
-    /* border: 1px solid black; */
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-top: 2px;
+    width: 96vw;
+    padding: 25px 20px;
     text-align: center;
-    width: 100%;
-    /* line-height:25px; */
-    height: 100px;
+    font-weight: 700;
+    line-height: 10px;
+    height: 150px;
+    align-items: center;
 }
-table{
-    font-size: 25px;
+hr{
+    width: 97vw;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+.table{
+    border-collapse: collapse;
+    margin-left: 50px;
+    width: 94.3vw;
+    border-spacing: 5px;
+
+}
+.table td{
+    border: 2px solid rgb(36, 34, 34);
+    height: 5vw;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+.head-item{
+    word-spacing: px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    height: 10em;
     margin-top: 20px;
-    width: 100%;
-    border: 2px solid rgb(17, 16, 16);
+    margin-left: 12px;
+    text-align: center;
+    background-color: rgb(241, 236, 236);
+}
+.head-item tr{
+    height: 50px;
+    border: 2px solid black;
+}
+.head-item tr th{
+    margin: 20px 2px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.body-item{
+    padding: 0;
+    background-color: rgb(241, 236, 236);
     text-align: center;
 }
-table td{
-    text-align: center;
+.body-item th{
+    font-weight: 900;
+    font-size: 20px;
+}
+.body-item tr{
+    margin: 2px;
+    height: 80px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.body-item tr td{
+    width: 900px;
+}
+.footer-item{
+    margin-top: 30px;
+    font-size: 25px;
+    background-color: rgb(241, 236, 236);
+    /* border: 1px solid blue; */
+}
+#footer-tab th{
+    border: 2px solid black;
+    width: 50px;
+}
+.Foot-table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    margin-left: 50px;
+    width: 600px;
+    border-spacing: 5px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+
+}
+.Foot-table td{
+    /* width: 500px; */
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 2px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+}
+.Foot-table th{
+    width: 50px;
+    border: 2px solid black;
 }
