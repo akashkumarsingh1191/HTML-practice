@@ -1,0 +1,88 @@
+main{
+    width: 1000px;
+    background-color: brown;
+    margin: auto;
+}
+header{
+    width: 950px;
+    height: 150px;
+    border: 1px solid black;
+    align-items: last baseline;
+    margin-left: 20px;
+    text-shadow: 30px rgb(241, 176, 176);
+}
+header img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 120px;
+    position:relative;
+    margin-left: 10px;
+}
+header span{
+    border: 1px solid black;
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 25px;
+}
+header nav{
+    border: 1px solid blue;
+    float:right;
+    margin-right: 5px;  
+    margin-top: 75px;  
+}
+ header nav a{
+    color: black;
+    /* border: 1px solid white; */
+    float: left;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+section{
+    border: 1px solid black;
+    width: 950px;
+    height: 100px;
+    clear: both;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: rgb(189, 115, 26);
+}
+article{
+    border: 1px solid navy;
+    background-color: magenta;
+    margin-left: 20px;
+    margin: 5px 20px;
+    width: 950px;
+    height: 400px;
+}
+footer{
+    width: 950px;
+    margin: 5px 20px;
+}
+footer div{
+    width: 450px;
+    /* border: 1px solid rgb(105, 80, 32); */
+    float: left;
+    /* font-size: 25px; */
+    margin-left: 15px;
+    margin-top: 10px;
+}
+footer div nav{
+    width: 100px;
+    height: 50px;
+    background-color: #d35858;
+    text-align: center;
+    float: left;
+    font-size: 25px;
+    /* border: 1px solid #af1e1e; */
+    margin: 10px 4px;
+    padding: 2px 2px;
+    text-decoration: none;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
