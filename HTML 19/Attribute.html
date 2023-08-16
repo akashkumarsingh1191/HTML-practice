@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute in HTML</title>
+</head>
+<body>
+    <!--
+        value attribute is used to create a initial value of the text.
+        (readonly) is used read the input but we cannot change their value/modify their value. 
+        id attribute is unique for every input tags.
+        >>Value:
+        >>Name:
+        >>Readonly: read only the input tag.
+        >>Disabled: cannot modify,edit etc on the input tag.
+        >>Size: provide the size of the input tags 
+        >>Maxlength: length of the entered input data.
+        >>Min & Max: used to fixed the range with in the input tags.
+        >>Multiple: used to store/upload multiple files.
+        >>Placeholder: used to place the text on the input tags.
+        >>Autofocus: used to focus the tags while refreshing the page. 
+        >>Height & Width: set the width and height of the image.
+        >>Required: used for necessary data to required before submiting the page.
+        >>Step: used to increase/decrease the step value of the max. or min. value.
+    -->
+
+    User Name: <input type="text" name="username"><br>
+    First Name: <input type="text" name="first_name" value="Akash" id="firstname"><br>
+    Middle Name: <input type="text" name="middle_name" value="Kumar" id="middlename" readonly ><br>
+    Last Name: <input type="text" name="last_name" id="lastname" disabled><br>
+    City Name: <input type="text" name="city_name" id="cityname" size="20"><br>
+    Address Name: <input type="text" name="address_name" id="addressname" size="20" maxlength="1"><br>
+    Number: <input type="number" name="number" id="number" size="12" min="9" max="20"><br>
+    File: <input type="file" value="file" id="file" multiple>
+</body>
+</html>
