@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+
+    width: 900px;
+    height: 610px;
+    background-color: wheat;
+    margin: auto;
+    border: 1px solid black;
+}
+header{
+    margin-top: 20px;
+    width: 850px;
+    height: 100px;
+    background-color: green;
+    margin: auto;
+}
+article{
+   background-color: greenyellow;
+   margin-top: 20px;
+   width: 850px;
+   height: 100px;
+   margin-left: 25px;
+}
+section{
+    width: 850px;
+    height: 200px;
+    /* margin: 20px 20px; */
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(20, 222, 20);
+}
+footer{
+    width: 850px;
+    height: 140px;
+    background-color: rgb(128, 184, 206);
+    margin: auto;
+    margin-top: 20px;
+}
