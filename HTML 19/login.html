@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        main{
+            margin: auto;
+            width: 500px;
+            height: 580px;
+            border-radius: 10px;
+            background-color: rgb(233, 232, 232);
+            box-shadow: 3px 1px 7px black, 3px 1px 7px black inset;  /* box-shadow is used to shadow the box(x-axis y-axis blur radius color) */
+        }
+        .sinup{
+            width: 400px;
+            height: 400px;
+            position: relative;
+            top: 50px;
+            margin: auto;
+            font-size: 20px;
+            text-transform: capitalize;
+            font-family:'Times New Roman', Times, serif;
+            /* background-color: pink; */
+        }
+        .sinup h3{
+            text-shadow: 2px 1px 4px rgb(112, 76, 76);
+            width: 200px;
+            position: relative;
+            top: 30px;
+            left: 30px;
+        }
+        .sinup div{
+            position: relative;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+        .sinup input{
+            border: 1px dotted;
+            width: 350px;
+            height: 35px;
+            background-color: #c0bfbf;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .sinup #submit{
+            text-shadow: 1px 1px black;
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: rgb(233, 236, 236);
+            background-color: rgb(236, 62, 135);
+        }
+        .foot{
+            text-decoration: none;
+            width: 400px;
+            /* height: 200px; */
+            position: relative;
+            top: 30px;
+            margin: auto;
+            /* border: 1px solid rgb(207, 110, 110); */
+        }
+        .foot .logo{
+            width: 25px;
+            position: relative;
+            top: 10px;
+            left: 130px;       
+        }
+        .foot .logo img{
+            width: 25px;
+            height: 25px;
+            margin-right: 25px;
+            border-radius: 10px;
+        }
+        .foot p{
+            text-align: center;
+        }
+        a{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="#">
+            <div class="sinup">
+                <h3>Sin up</h3>
+                <div>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" >
+                </div>
+                <div>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password">
+                </div>
+                <div>
+                <input type="submit" name="sin up" value="SIGN UP" id="submit">            
+                </div>
+            </div>
+            <br><br><br>
+            <div class="foot">
+                <span class="logo">
+                    <a href="http://www.gmail.login.com">
+                    <img src="../HTML 13/26.jpg" alt="gmail"></a>
+                </span>
+                <span class="logo">
+                    <a href="http://www.facebook/login.com">
+                    <img src="../HTML 13/26.jpg" alt="gmail"></a>
+                </span>
+                <span class="logo">
+                    <a href="http://www.linked/login.com">
+                    <img src="../HTML 13/26.jpg" alt="gmail"></a>
+                </span>
+                <p>Already a user?<a href="login.html">LOGIN</a></p>
+            </div>       
+        </form>
+    </main>
+</body>
+</html>
