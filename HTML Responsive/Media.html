@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Media</title>
+</head>
+<body>
+
+    <!-- 
+        What is Multimedai?
+        -- Media means audio ,video,image,etc. and multi media means collection of different media to convey any message.
+        -- We can work with multimedia using HTML.
+        -- We can work withimage,audio,video using HTML coding.
+    -->
+    <h1>Audio is Inserted in HTML page</h1>
+    <!-- using controls attribute ,we can control on audio like volume,play,pause -->
+    <p>without control attribute audio will not display on the screen we must use "control attribute"</p>
+    <p>Using 'controls' attribute in Audio tags</p>
+    <audio controls>
+        <source src="../Front Page/Atif Aslam songs.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- using autoplay attribute ,your audio will play automatically -->
+    <p>Using 'autoplay' attribute in Audio tags</p>
+    <audio controls <!--autoplay--></audio>>
+        <source src="../Front Page/Atif Aslam songs.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- using Muted attribute , if you add this attribute,audio will muted -->
+    <p>Using 'Muted' attribute in Audio tags</p>
+    
+    <audio controls muted>
+        <source src="../Front Page/Atif Aslam songs.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- 
+        Audio Attribute
+        -- control
+        -- muted
+        -- autoplay
+     -->
+
+    <h1>Video in HTML web page</h1>
+    <p>without control attribute video will not display on the screen we must use "control attribute"</p>
+    <p>Using 'controls' attribute in Video tags</p>
+    <video controls max-width="500px" height="200px">
+        <source src="/HTML Responsive/vdo.mp4" type="video/mp4">
+    </video>
+    <p>Using 'autoplay' attribute in Video tags autoplay the video after refreshing.</p>
+    <video controls autoplay max-width="500px" height="200px">
+        <source src="/HTML Responsive/vdo.mp4" type="video/mp4">
+    </video>
+    <p>Using 'Muted' attribute in Video tags mute the video</p>
+    <video controls muted max-width="500px" height="200px">
+        <source src="/HTML Responsive/vdo.mp4" type="video/mp4">
+    </video>
+    <p>Using 'poster'attribute, you have to insert a image using poster attribute.it will display when video downloading</p>
+    <video controls poster="../HTML 13/26.jpg" max-width="500px" height="200px">
+        <source src="/HTML Responsive/vdo.mp4" type="video/mp4">
+    </video>
+    <!-- 
+        Video Attribute
+        -- control
+        -- autoplay
+        -- muted
+        -- poster
+     -->
+
+     <p>HTML Media: Video Events</p>
+     
+</body>
+</html>
