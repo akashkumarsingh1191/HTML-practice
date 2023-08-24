@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators in CSS</title>
+    <style>
+        /* decendent selector 
+            h1 tag is childendren of div tags.
+        */
+        div h1{
+            background-color: rgb(196, 174, 174);
+            color: rgb(223, 220, 208);
+        }
+        #akash .para p{
+            background-color: lawngreen;
+        }
+        /* Child Selector by using ('>') */
+        div>h1{
+            background-color: palegreen;
+            color: rgb(234, 238, 10);
+        }
+        /* Adjacent sibling selector(+) */
+        h1+p{
+            background-color: burlywood;
+        }
+        /* General sibling Selector(~)*/
+        h1~p{
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+        Descendant Selectors
+        Child Selector with greater than sign
+        Adjacent sibling selector with addition sign.
+        General sibling Selector with tidle sign.
+    -->
+    <div>
+        <h1>Akash Singh</h1>
+        <h1>Akash Singh</h1>
+        <p>Akash Singh</p>
+    </div>
+    <br><br>
+    <div id="akash">
+        <p>Rahul Singh</p>
+        <div class="para">
+            <p>Akash kumar singh</p>
+        </div>
+    </div>
+    <br><br>
+    <h1>Akash Singh</h1>
+    <p>Akash Kumar Singh</p>
+    <p>Akash Kumar Singh</p>
+    <p>Akash Kumar Singh</p>
+    <p>Akash Kumar Singh</p>
+    <p>Akash Kumar Singh</p>
+
+    <!-- 
+        CSS Combinators
+            As HTML document is like tree structure which have parent to child concept.
+            A HTML may have one or more than one children.
+
+            We can select on the basis of their relationship using Css selectors,
+            that covered with constructor.
+
+        Descendent Selectors :->
+            It will apply CSS style on the Descendent element.
+            The element that is inside another element.
+            We can target a Html element.
+        
+        Child Selector:->
+            It will select only children of a element.
+        
+        General Sibling Selector:->
+            It will select all the element that are sibling after specific element.
+     -->
+</body>
+</html>
