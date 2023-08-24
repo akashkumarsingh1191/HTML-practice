@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute in Css</title>
+    <style>
+        h1[title='jafri']{
+            background-color: rgb(236, 17, 17);
+            color: aqua;
+        }
+        h1[title~='jafri']{
+            border: 2px solid blue;
+        }
+        h1[title|='jafri']{
+            background-color: magenta;
+            color: white;
+            border: 1px solid oldlace;
+        }
+        h1[title^='jafri']{
+            background-color: papayawhip;
+            color: aqua;
+        }
+        h1[title$='jafri']{
+            color: blue;
+            background-color: orange;
+        }
+        h1[title*=akash]{
+            color: rgb(97, 20, 238);
+            background-color:hotpink;
+        }
+    </style>
+</head>
+<body>
+    <!-- it will select html element which have specific attribute with specific value: -->
+    <h3>We are learning CSS Attribute Selector</h3>
+    <h1 title="jafri">We are learning CSS Attribute Selector</h1>
+    <h1 title="para">We are learning CSS Attribute Selector</h1>
+    <h2 title="jan">We are learning CSS Attribute Selector</h2>
+    <br><br>
+    <!-- 
+        [attribute~='value']
+        It select HTML element which have specific attribute with specific value with space.
+     -->
+
+    <h3>We are learning CSS Attribute Selector with tidle</h3>
+    <h1 title="Jafri-code">We are learning CSS Attribute Selector with tidle</h1>
+    <h1 title="parajafri">We are learning CSS Attribute Selector with tidle</h1>
+    <h1 title="jafri code">We are learning CSS Attribute Selector with tidle</h1>
+    <br><br>
+    <!-- 
+        [attribute|='value']
+            It will select html element which have specific attribute with specific value.
+            Value should be at starting point.
+            Value should be separated or with hypen(word-)
+     -->
+
+    <h3>We are learning CSS Attribute Selector with pipe</h3>
+    <h1 title="jafri-code">We are learning CSS Attribute Selector with pipe</h1>
+    <h1 title="para-jafri">We are learning CSS Attribute Selector with pipe</h1>
+    <h1 title="jafri">We are learning CSS Attribute Selector with pipe</h1>
+    <h1 title="jafri code">We are learning CSS Attribute Selector with pipe</h1>
+    <br><br>
+
+    <!-- 
+        [attribute^='value']
+            It select HTML element which have a specific attribute with specific value placing at "starting point".
+            The word did not need to be separated.
+     -->
+
+    <h3>We are learning CSS Attribute Selector with carrot</h3>
+    <h1 title="jafri-code">We are learning CSS Attribute Selector with carrot</h1>
+    <h1 title="para-jafri">We are learning CSS Attribute Selector with carrot</h1>
+    <h1 title="jafri">We are learning CSS Attribute Selector with carrot</h1>
+    <h1 title="jafri code">We are learning CSS Attribute Selector with carrot</h1>
+    <br><br>
+
+    <!-- 
+        [attribute$=value]
+            It select HTML element which have specific attribute with specific value placing at 'ending point".
+            The word,did not need to be separated.
+     -->
+    
+     <h3>We are learning CSS Attribute Selector with dollar</h3>
+     <h1 title="codejafri">We are learning CSS Attribute Selector with dollar</h1>
+     <h1 title="para-jafri">We are learning CSS Attribute Selector with dollar</h1>
+     <h1 title="jafri">We are learning CSS Attribute Selector with dollar</h1>
+     <h1 title="code jafri">We are learning CSS Attribute Selector with dollar</h1>
+     <br><br>
+
+     <!-- 
+        [attribute*="value"]
+           It select Html element have specified attribute value placing at any point(Starting ,middle,ending point).
+           The word,did not need to be separated. 
+      -->
+      <h3>We are learning CSS Attribute Selector with asterisk</h3>
+     <h1 title="akash-site">We are learning CSS Attribute Selector with asterisk</h1>
+     <h1 title="akash-web">We are learning CSS Attribute Selector with asterisk</h1>
+     <h1 title="code-akash-singh">We are learning CSS Attribute Selector with asterisk</h1>
+     <h1 title="code-akashsingh">We are learning CSS Attribute Selector with asterisk</h1>
+     <h1 title="akash">We are learning CSS Attribute Selector with asterisk</h1>
+     <h1 title="codeatakash">We are learning CSS Attribute Selector with asterisk</h1>
+     <br><br>
+</body>
+</html>
