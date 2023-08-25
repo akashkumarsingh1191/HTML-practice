@@ -1,11 +1,29 @@
 .main{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     background-color: blanchedalmond;
 }
-.nav-bar{
-    margin: auto;
-    width: 200px;
-    height: 300px;
-    border: 2px solid blue;
+.head{
+    width: 100%;
+    background-color: palevioletred;
+}
+.head .navbar{
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 23%;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #000;
+}
+.navbar a.active{
+    background-color: #04aa6d;
 }
