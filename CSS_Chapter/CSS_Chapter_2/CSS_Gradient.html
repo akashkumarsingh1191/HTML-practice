@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gradient</title>
+    <style>
+        div{
+            width: 500px;
+            height: 100px;
+            /* background: repeating-linear-gradient(to top,yellow ,red 25%,pink 5%); */
+            background: radial-gradient(circle,red,green,blue);
+            background-color: rgb(153, 153, 190);
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        Linear Gradient:
+            bg:linear-gradient(direction,color1,color2,color3,....)
+        Direction:
+            to bottom(default)
+            to right
+            to left
+            to top
+        "Or" Diagionally:
+            to bottom right
+            to bottom left
+            to top left
+            to top right
+        Repeating Linear Gradient:
+            bg:repeating-linear-gradient(Direction,color(in %))
+
+        Radial Gradient:
+            bg:radial-gradient('shape' size at pos.,'start' to 'end' color)
+            bg:radial-gradient('circle' closest-side at 55% 45%,red,green,blue)
+        shape:
+            ellipse(by default)
+            circle
+        size: 
+            farthest-corner(default)
+            closest-side
+            closest-corner
+            farthest-side
+        Repeating Linear Gradient:
+            bg:radial-gradient('shape' size at pos.,'start' to 'end' color)
+     -->
+    
+    <div></div>
+    <div></div>
+</body>
+</html>
