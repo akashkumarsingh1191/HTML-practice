@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class in css</title>
+    <style>
+        /* p:first-child{
+            background-color: black;
+            color: white;
+        } */
+        /* p:last-child{
+            background-color: black;
+            color: white;
+        } */
+        p:nth-child(3){
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>  <!--6 child -->
+    <!-- 
+        Pseudo Class:
+            Used to define the status of the HTML element.As hover,active,focus,etc.
+            :first-child
+            :last-child
+            :nth-child(1,2,3 or 2n,2n+1 etc)
+            :nth-last-child()
+            :nth-of-type()
+            :nth-last-of-type()
+            :only-child()
+            :empty
+            :not
+
+
+            :link
+            :visited
+            :hover
+            :active
+
+
+            :focus
+            :checked
+            :disabled
+            :required
+            :target
+            :optional
+
+
+            :in-range
+            :out-of-range
+            :read-only
+            :valid
+            :invalid
+            :default
+            :root
+        -->
+
+    <ul>    <!--1st child -->
+        <li>List item...1</li>
+        <li>List item...2</li>
+        <li>List item...3</li>
+        <li>List item...4</li>
+        <li>List item...5</li>
+    </ul>
+        <!--2nd child -->
+
+    <p>Paragraph...2 child of body</p>
+        <!--3rd child -->
+    <p>Paragraph...3 child of body</p>
+    
+    <div>   <!--4th child -->
+        <p>Paragraph...1 child of div</p>
+        <p>Paragraph...2 child of div</p>
+        <p>Paragraph...3 child of div</p>
+        <p>Paragraph...4 child of div</p>
+    </div>
+    <div>   <!--5th child -->
+        <p>Paragraph...1 child of 2nd Div</p>
+    </div>
+    <ul>    <!--6th child -->
+        <li>List item...1</li>
+        <li>List item...2</li>
+        <li>List item...3</li>
+        <li>List item...4</li>
+        <li>List item...5</li>
+    </ul>
+    <!-- 
+            :first-child
+            :last-child
+            :nth-child(1,2,3 or 2n,2n+1 etc)
+            :nth-last-child()
+            :nth-of-type()
+            :nth-last-of-type()
+            :only-child()
+            :empty
+            :not
+     -->
+</body>
+</html>
