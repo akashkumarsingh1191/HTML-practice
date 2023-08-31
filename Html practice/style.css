@@ -11,6 +11,11 @@
     height: 150px;
     border-radius: 75px;
 }
+@media screen and(max-width:500px) {
+    .header img{
+        width: 100%;
+    }
+}
 .header{
     letter-spacing: 1px;
     word-spacing: 5px;
@@ -22,6 +27,12 @@
     line-height: 10px;
     height: 150px;
     align-items: center;
+}
+@media screen and(min-width:500px) {
+    .header{
+        width: 100%;
+        line-height: 1px;
+    }
 }
 hr{
     width: 97vw;
@@ -42,6 +53,13 @@ hr{
     font-weight: 800;
     font-size: 20px;
 }
+@media screen and(min-width:300px) {
+    .table td{
+        width:100%;
+        font-size: 12px;
+    }
+}
+
 .head-item{
     word-spacing: px;
     letter-spacing: 2px;
