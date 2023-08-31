@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            margin: 140px;
+            background-color: green;
+            transition: width;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-timing-function: cubic-bezier(0.3,0.4,0.8);
+            animation-direction: alternate;
+        }
+        @keyframes example{
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: yellow;
+                /* background-color: blue; */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+       Animation:
+        Animation-property
+        Animation-duration
+        Animation-timing-function
+            ease        slow start,then fast and then end slow
+            linear      same speed from start to end
+            ease-in     slow start
+            ease-out    slow end
+            ease-in-out     slow start and end 
+            step-start      acc.to step(1,start)
+            step-end        acc.to step(1,end)
+            step(number,start/end)      
+            cubic-bezier        user defined(0.3,1.0,2)
+        animation-delay
+        animation-iteration-count
+        animation-direction
+            normal
+            reverse
+            alternate
+        
+
+        animation(animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction)    
+     -->
+    <div>
+
+    </div>
+</body>
+</html>

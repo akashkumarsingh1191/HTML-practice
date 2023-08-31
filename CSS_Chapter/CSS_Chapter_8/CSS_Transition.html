@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+    <style>
+        div{
+            width: 100px;
+            height: 40px;
+            background-color: grey;
+            transition-property: width,background-color,height;
+            transition-duration: 3s;
+            transition-timing-function: ease-in-out;
+            /* transition-delay: 2s; */
+        }
+        div:hover{
+            width: 200px;
+            background-color: #ffee00;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+       transition:
+        transition-property
+        transition-duration
+        transition-timing-function
+            ease        slow start,then fast and then end slow
+            linear      same speed from start to end
+            ease-in     slow start
+            ease-out    slow end
+            ease-in-out     slow start and end 
+            step-start      acc.to step(1,start)
+            step-end        acc.to step(1,end)
+            step(number,start/end)      
+            cubic-bezier        user defined(0.3,1.0,2)
+            
+     -->
+
+     <div>
+
+     </div>
+</body>
+</html>
