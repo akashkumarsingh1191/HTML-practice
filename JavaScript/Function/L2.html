@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Solution</title>
+</head>
+<body>
+    <script>
+        // Write a program in the JS to get two number
+        // from user to pass function to perform arithmetic operation 
+        // on that number
+
+        function math(a,b){
+            document.write("Additon of two number is =",+(a+b));
+            document.write("<br>")
+            document.write("Subtraction of two number is =",+(a-b));
+            document.write("<br>")
+            document.write("Multiplication of two number is =",+(a*b));
+            document.write("<br>")
+            document.write("Division of two number is =",+(a/b));
+            document.write("<br>")
+            document.write("Mod of two number is ="+(a%b));
+        }
+        // math(2,5)
+        var num1=Number(window.prompt("Enter first number"));
+        var num2=Number(window.prompt("Enter second number"));
+    </script>
+    <button onclick="math(num1,num2)">Perform Operation</button>
+</body>
+</html>
