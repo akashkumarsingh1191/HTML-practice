@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Object in html</title>
+</head>
+<body>
+    <script>
+        var x="AKASH"
+        var v=234;
+        var b=12.54;
+        var c=234e65
+
+        document.write(x)
+        document.write("<br>")
+        document.write(typeof(x))
+        document.write(v)
+        document.write("<br>")
+        document.write(typeof(v))
+        document.write(c)
+        document.write("<br>")
+        document.write(typeof(c))
+        document.write("<br>")
+        document.write(x)
+        document.write("<br>")
+        document.write(typeof(b))
+        // NaN in number
+        document.write("NaN Number")
+        document.write("<br>")
+        document.write("Akash"/12)
+        document.write("<br>")
+        document.write("akasj"/-3)
+        document.write("<br>")
+        document.write(12/"akash")
+        document.write("<br>")
+        document.write(0/0)
+        document.write("<br>")
+        document.write("Number - Infinity")
+        document.write("<br>")
+        document.write(2/0)
+        document.write("<br>")
+        document.write(-2/0)
+        document.write("<br>")
+        document.write(2/-0)
+        
+        document.write("<br>")
+        document.write("Number Method parseInt")
+        document.write("<br>")
+        document.write(parseInt(3.33))
+        document.write("<br>")
+        // it will give NaN
+        document.write(parseInt("string 3"))
+        document.write("<br>")
+
+        document.write("Number Method isFinite()")
+        document.write("<br>")
+        document.write(isFinite(9))
+        document.write("<br>")
+        document.write(isFinite("akash"))
+        document.write("<br>")
+        document.write(isFinite(.098))
+        document.write("<br>")
+
+        document.write("Number Method isInteger()")
+        document.write("<br>")
+        document.write(Number.isInteger(2))
+        document.write("<br>")
+        document.write(Number.isInteger("aksh"))
+        document.write("<br>")
+        document.write(Number.isInteger(2.09))
+        document.write("<br>")
+
+        document.write("Number Method isNaN()")
+        document.write("<br>")
+        document.write(isNaN(2))
+        document.write("<br>")
+        document.write(isNaN("34"))
+
+        document.write("<br>")
+        document.write("toExponential()")
+        document.write("<br>")
+    </script>
+</body>
+</html>
